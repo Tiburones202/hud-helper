@@ -141,7 +141,11 @@ local function InitMod()
 		end
 	end
 	HudHelper.ItemSpecificOffset = {
+		[CollectibleType.COLLECTIBLE_THE_JAR] = Vector(4, 3),
 		[CollectibleType.COLLECTIBLE_JAR_OF_FLIES] = Vector(4, 2),
+		[CollectibleType.COLLECTIBLE_JAR_OF_WISPS] = Vector.One,
+		[CollectibleType.COLLECTIBLE_GLOWING_HOUR_GLASS] = -Vector.One,
+		[CollectibleType.COLLECTIBLE_URN_OF_SOULS] = Vector(2, 1),
 	}
 
 	---@enum HUDLayout
